@@ -4,9 +4,12 @@ using namespace std;
 int main()
 {
 	float n;
-	cout<<"Digite uma nota"<<endl;
-	cin>>n;
-    	if (n<=7)
+	int i=1;
+	while ( i<=10)
+	{
+	 cout<<"Digite uma nota"<<endl;
+ 	 cin>>n;
+		if (n<=7)
 	    {
       		cout<<"Reprovado!"<<endl;
         }
@@ -17,7 +20,9 @@ int main()
 	    if (n==10)
 	    {
 	    	cout<<"Aprovado com louvor!!"<<endl;
-
+		}
+     i++;
+	}
 
 	return 0;
 }
