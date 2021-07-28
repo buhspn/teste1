@@ -25,7 +25,18 @@ int main()
      a+=n;
 	}
 	b=a/i;
-    cout<<"Media da turma :"<<b;
-
+    cout<<"Media da turma :"<<b<<endl;
+   if (b<=7)
+   {
+   		cout<<"Media ruim."<<endl;
+   }
+   if ((7<b)&&(b<10))
+   {
+   	    cout<<"Media boa."<<endl;
+   }
+   if (b==10)
+   {
+  	    cout<<"Media muito boa."<<endl;
+   }
 	return 0;
 }
