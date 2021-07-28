@@ -3,9 +3,9 @@ using namespace std;
 
 int main()
 {
-	float n;
+	float n,a=0,b=0;
 	int i=1;
-	while ( i<=10)
+	while ( i<=5)
 	{
 	 cout<<"Digite uma nota"<<endl;
  	 cin>>n;
@@ -22,7 +22,10 @@ int main()
 	    	cout<<"Aprovado com louvor!!"<<endl;
 		}
      i++;
+     a+=n;
 	}
+	b=a/i;
+    cout<<"Media da turma :"<<b;
 
 	return 0;
 }
